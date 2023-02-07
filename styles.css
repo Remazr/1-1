@@ -181,6 +181,7 @@ transition: all 300ms ease;
     color: rgb(86, 19, 220);
     display: none;
     max-width: 50px;
+    padding: 0 16px 0 0;
 }
 
 .btn__menu:hover {
