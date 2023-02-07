@@ -289,7 +289,6 @@ HEADER
 }
 
 .header__img {
-    height: 100%;
     width: 100%;
 
 }
@@ -1049,6 +1048,10 @@ Large desktops, Desktops
 }
 
 @media (max-width: 768px) {
+   .header__img--wrapper {
+    width: 100%;
+   }
+   
     .highlight {
         width: 100%;
         margin-bottom: 16px;
@@ -1057,6 +1060,7 @@ Large desktops, Desktops
     .highlight:last-child {
         margin: 0;
     }
+
 
     .quality-work {
         display: flex;
